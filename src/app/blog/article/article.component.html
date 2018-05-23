@@ -1,3 +1,9 @@
-<p>
-  article works!
-</p>
+<article>
+    <address>
+      <wmd-address [contact]="article.contact"></wmd-address>
+    </address>
+    <header><h1>{{article.header}}</h1> by {{article.author}} </header>
+    {{article.content}}
+    <footer>follow {{article.autor}} on Twitter</footer>  
+</article>
+
