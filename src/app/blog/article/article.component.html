@@ -1,9 +1,11 @@
-<article>
+<article *ngIf="article">
+  <div class="card">
     <address>
-      <wmd-address [contact]="article.contact"></wmd-address>
+      <wmd-address [contact]="article.author"></wmd-address>
     </address>
-    <header><h1>{{article.header}}</h1> by {{article.author}} </header>
-    {{article.content}}
-    <footer>follow {{article.autor}} on Twitter</footer>  
+    <header class="card-header">{{article.post.header}}</header>
+    {{article.post.content}}
+    <footer>follow {{article.author.name}} on Twitter</footer>  
+  </div>
 </article>
 

@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   {
     path: 'moderation',
-    loadChildren: './moderation/moderation-routing.module.ts#ModerationModule',
+    loadChildren: './moderation/moderation.module#ModerationModule',
   },
 ];
 

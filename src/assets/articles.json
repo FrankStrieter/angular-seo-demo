@@ -5,11 +5,11 @@
       "mail": "fs@co-IT.eu",
       "twitter": "@FrankStrieter"
     },
-    "content": {
+    "post": {
       "header": "Suchmaschinenoptimierung für Angular Applikationen",
       "content": "bla bla"
-    }
-
+    },
+    "description": "bla bla 1"
   },
   {
       "uniqueName": "angular-at-scale",
@@ -21,7 +21,8 @@
     "post": {
       "header": "Angular at Scale",
       "content": "noch mehr bla"
-    }
+    },
+    "description": "bla bla"
   },
   {
       "uniqueName": "keine-ahnung",
@@ -33,6 +34,7 @@
     "post": {
       "header": "Keine Ahnung",
       "content": "Noch weniger Ahnung"
-    }
+    },
+    "description": "bla bla 2"
   }
 ]
