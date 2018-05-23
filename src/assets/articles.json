@@ -1,0 +1,38 @@
+[{
+    "uniqueName": "suchmaschinenoptimierung-fuer-angular-applikationen",
+    "author": {
+      "name": "Frank Strieter",
+      "mail": "fs@co-IT.eu",
+      "twitter": "@FrankStrieter"
+    },
+    "content": {
+      "header": "Suchmaschinenoptimierung für Angular Applikationen",
+      "content": "bla bla"
+    }
+
+  },
+  {
+      "uniqueName": "angular-at-scale",
+    "author": {
+      "name": "Gregor Woiwode",
+      "mail": "gw@co-IT.eu",
+      "twitter": "@GregOnNet"
+    },
+    "post": {
+      "header": "Angular at Scale",
+      "content": "noch mehr bla"
+    }
+  },
+  {
+      "uniqueName": "keine-ahnung",
+    "author": {
+      "name": "Uli Armbruster",
+      "mail": "ua@co-IT.eu",
+      "twitter": "@UliArmbruster"
+    },
+    "post": {
+      "header": "Keine Ahnung",
+      "content": "Noch weniger Ahnung"
+    }
+  }
+]
