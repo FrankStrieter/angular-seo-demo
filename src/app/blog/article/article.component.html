@@ -4,10 +4,9 @@
       <wmd-address [contact]="article.author"></wmd-address>
     </address>
     <header class="card-header title is-4">{{article.post.header}}</header>
-    <section class="card-content">
-    {{article.post.content}}
+    <section class="card-content" [innerHTML]="article.post.content">
   </section>
-    <footer class="card-footer">follow {{article.author.name}} on Twitter</footer>  
+    <footer class="card-footer"><a [href]="'https://twitter.com/' + article.author.twitter">follow  {{article.author.name}} on Twitter </a></footer>  
   </div>
 </article>
 

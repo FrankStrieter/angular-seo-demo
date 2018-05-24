@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Article } from '../../core/models/article';
+import { SafeHtml, DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'wmd-article',
@@ -7,8 +8,13 @@ import { Article } from '../../core/models/article';
   styleUrls: ['./article.component.scss'],
 })
 export class ArticleComponent implements OnInit {
+  articleContent: SafeHtml;
   @Input() article: Article;
-  constructor() {}
+  constructor(private sanitizer: DomSanitizer) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.articleContent = this.sanitizer.bypassSecurityTrustHtml(
+      this.article.post.content
+    );
+  }
 }

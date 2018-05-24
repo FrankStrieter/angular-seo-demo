@@ -14,3 +14,16 @@ wmd-footer.container {
     max-width: unset !important;
 }
 
+
+nav {
+    background-color: transparent;
+    
+    a {
+        color: white !important;
+    }
+
+
+    :hover {
+        color: black !important;
+    }
+}

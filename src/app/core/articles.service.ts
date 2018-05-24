@@ -9,7 +9,7 @@ import { Article } from './models/article';
 })
 export class ArticlesService {
   private _articles: Article[];
-  apiUrl = 'http://localhost:4200/assets';
+  apiUrl = '/assets';
   constructor(private http: HttpClient) {}
 
   get articles() {
