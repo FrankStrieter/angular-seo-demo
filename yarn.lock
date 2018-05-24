@@ -198,10 +198,6 @@
   dependencies:
     tslib "^1.9.0"
 
-"@clr/ui@^0.11.18-patch.1":
-  version "0.11.18-patch.1"
-  resolved "https://registry.yarnpkg.com/@clr/ui/-/ui-0.11.18-patch.1.tgz#096df0095cf333b4b37c918cb90418f8ea917baa"
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1475,6 +1471,10 @@ builtin-status-codes@^3.0.0:
 builtins@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/builtins/-/builtins-1.0.3.tgz#cb94faeb61c8696451db36534e1422f94f0aee88"
+
+bulma@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.1.tgz#73c2e3b2930c90cc272029cbd19918b493fca486"
 
 bytes@3.0.0:
   version "3.0.0"
