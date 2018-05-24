@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Article } from '../../core/models/article';
 
 @Component({
   selector: 'wmd-article',
@@ -6,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./article.component.scss'],
 })
 export class ArticleComponent implements OnInit {
-  @Input() article;
+  @Input() article: Article;
   constructor() {}
 
   ngOnInit() {}

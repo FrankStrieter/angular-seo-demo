@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ArticlesService } from '../../core/articles.service';
+import { Article } from '../../core/models/article';
 
 @Component({
   selector: 'wmd-dashboard',
@@ -7,8 +8,10 @@ import { ArticlesService } from '../../core/articles.service';
   styleUrls: ['./dashboard.component.scss'],
 })
 export class DashboardComponent {
-  articles;
+  articles: Article[];
   constructor(private articleService: ArticlesService) {
-    this.articleService.all().subscribe(articles => (this.articles = articles));
+    this.articleService.articles.subscribe(
+      articles => (this.articles = articles)
+    );
   }
 }
