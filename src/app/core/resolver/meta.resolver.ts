@@ -6,18 +6,20 @@ import {
   RouterStateSnapshot,
 } from '@angular/router';
 import { ArticlesService } from '../articles.service';
+import { Subscription, Observable } from 'rxjs';
+import { tap } from 'rxjs/operators';
+import { Article } from '../models/article';
 
 @Injectable()
-export class MetaResolver implements Resolve<any> {
+export class MetaResolver implements Resolve<Observable<Article>> {
   constructor(
     public meta: Meta,
     public articlesService: ArticlesService,
     public title: Title
   ) {}
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
-    return this.articlesService
-      .getByName(route.params.name)
-      .subscribe(article => {
+    return this.articlesService.getByName(route.params.name).pipe(
+      tap(article => {
         this.title.setTitle(article.post.header);
         this.meta.updateTag({
           property: 'author',
@@ -35,6 +37,7 @@ export class MetaResolver implements Resolve<any> {
           property: 'twitter: description',
           content: article.description,
         });
-      });
+      })
+    );
   }
 }
