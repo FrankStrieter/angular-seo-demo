@@ -1,0 +1,12 @@
+<div class="box">
+  <div class="information">
+    <header><strong>{{article.post.header}}</strong></header>
+    {{article.description}}
+  </div>
+  <div class="actions">
+      <label class="checkbox">
+          <input name="article" [(ngModel)]="article.visible" type="checkbox">
+          Show this aticle
+        </label>
+  </div>
+  </div>

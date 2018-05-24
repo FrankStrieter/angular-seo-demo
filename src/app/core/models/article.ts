@@ -6,6 +6,7 @@ export class Article {
     public uniqueName: string,
     public description: string,
     public post: Post,
-    public author: Author
+    public author: Author,
+    public visible: boolean
   ) {}
 }
