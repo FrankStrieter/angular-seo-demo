@@ -1,5 +1,6 @@
-<a [routerLink]="['/article', article.uniqueName]"><p>
-  test
+<a [routerLink]="['/article', article.uniqueName]"><div class="box">
+  <header><strong>{{article.post.header}}</strong></header>
   {{article.description}}
-</p>
+  <footer>...read more</footer>
+</div>
 </a>

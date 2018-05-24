@@ -1,13 +1,15 @@
 <wmd-header>
-    <nav>
-        <a  [routerLink]="['/']">
+    <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+        <a class="navbar-item is-size-5" [routerLink]="['/']">
                 Blog
             </a>
-            <a [routerLink]="['/moderation']">
+            <a class="navbar-item is-size-5" [routerLink]="['/moderation']">
                 Moderation
             </a>
         </nav>
 </wmd-header>
+<main class="container">
 <router-outlet>
 </router-outlet>
-<wmd-footer></wmd-footer>
+</main>
+<wmd-footer class="container"></wmd-footer>
