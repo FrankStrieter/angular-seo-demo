@@ -5,7 +5,6 @@
   "projects": {
     "seo": {
       "root": "",
-      "sourceRoot": "src",
       "projectType": "application",
       "prefix": "wmd",
       "schematics": {
