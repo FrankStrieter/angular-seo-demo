@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 app.use(
   '*.*',
-  express.static(join(process.cwd(), 'articles.json'), {
+  express.static(join(__dirname, 'articles.json'), {
     maxAge: '1y',
   })
 );

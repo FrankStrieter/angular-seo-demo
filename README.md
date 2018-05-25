@@ -1,6 +1,10 @@
 # Seo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.10.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+
+## Demo-Api
+The Client-App fetches information from an Api-Endpoint. To make the App work, the Api has to be startet before you run Client-App.
+Run 'npm run start:server' 
 
 ## Development server
 
