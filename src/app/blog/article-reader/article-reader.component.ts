@@ -20,13 +20,9 @@ export class ArticleReaderComponent implements OnInit {
       this.relatedArticles = articles;
       this.ar.params
         .pipe(
-          flatMap(params => {
-            return this.articleService.getByName(params.name);
-          })
+          flatMap(params => this.articleService.getByName(params.name))
         )
-        .subscribe(article => {
-          this.article = article;
-        });
+        .subscribe(article => this.article = article);
     });
   }
 

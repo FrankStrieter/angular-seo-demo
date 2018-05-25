@@ -1,12 +1,11 @@
 <article *ngIf="article">
   <div class="card is-size-5">
-    <address>
-      <wmd-address [contact]="article.author"></wmd-address>
-    </address>
     <header class="card-header title is-4">{{article.post.header}}</header>
     <section class="card-content" [innerHTML]="article.post.content">
   </section>
-    <footer class="card-footer"><a [href]="'https://twitter.com/' + article.author.twitter">follow  {{article.author.name}} on Twitter </a></footer>  
+    <footer class="card-footer">
+      <wmd-address [contact]="article.author"></wmd-address>
+    </footer>  
   </div>
 </article>
 
