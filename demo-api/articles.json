@@ -7,7 +7,7 @@
     },
     "post": {
       "header": "Suchmaschinenoptimierung für Angular Applikationen",
-      "content": "Single Page Anwendungen, die mit einem JavaScript Framework wie Angular geschrieben werden, sind beliebter als je zuvor. Die Inhalte weisen eine hohe Dynamik innerhalb einer Webseite aus. Die Inhalte werden mit JavaScript dynamisch in das Dokument geladen. Viele Suchmaschinen-Bots, welche die Webseiten auf Inhalte durchsuchen, können dieses JavaScript nicht oder unzureichend ausführen. Das führt dazu, dass es Suchmaschinen schwer haben, diese Inhalte im Gesamten zu erfassen. Es ergibt sich für die erwarteten Suchbegriffe kein bzw. ein schlechtes Ranking auf der Suchergebnisseite. Es gibt eine Reihe Techniken, die sich bei der Suchmaschinenoptimierung behauptet haben und welche als Best Practices angesehen werden. Dazu zählen unter anderem das hinterlegen von seitenspezifischen Meta-Tags und eine kurze Antwortzeit der Seite bis zum ‚First Meaningful Paint‘. Im Folgenden lernen Sie Angulars Werkzeuge kennen, die Ihnen helfen ein gutes Ranking bei allen Suchmaschinen zu erreichen. <h2>Nutzung von HTML5 Elementen</h2> Durch das Komponentenbasierte Design von Angular-Anwendungen und dem damit verbundenen Erstellen von eigenen HTML-Tags für jede einzelne Komponente, wird meist vergessen, dass für viele dieser Elemente bereits Tags existieren. Suchmaschinen analysieren die Seiten auf Ihre semantische Struktur. Nutz man nun selbst erstellte Tags zur Strukturierung können die Inhalte einem bestimmten Kontext nicht zugeordnet werden. Für eine Blog-Anwendung ist es beispielsweise hilfreich, das Article-Element zu nutzen. Dadurch können Suchmaschinen den Artikel und seine Meta-Informationen wie address (Die Kontaktinformationen der Autoren) und time (Das Datum der Publizierung) indexieren und so als Ergebnisse in zum Beispiel einer Nachrichtensuche einordnen. Weitere Beispiele für suchmaschinenfreundliche HTML5-Tags sind in Tabelle 1 gelistet."
+      "content": "Single Page Anwendungen, die mit einem JavaScript Framework wie Angular geschrieben werden, sind beliebter als je zuvor. Die Inhalte weisen eine hohe Dynamik innerhalb einer Webseite aus. Die Inhalte werden mit JavaScript dynamisch in das Dokument geladen. Viele Suchmaschinen-Bots, welche die Webseiten auf Inhalte durchsuchen, können dieses JavaScript nicht oder unzureichend ausführen. Das führt dazu, dass es Suchmaschinen schwer haben, diese Inhalte im Gesamten zu erfassen. Es ergibt sich für die erwarteten Suchbegriffe kein bzw. ein schlechtes Ranking auf der Suchergebnisseite. Es gibt eine Reihe Techniken, die sich bei der Suchmaschinenoptimierung behauptet haben und welche als Best Practices angesehen werden. Dazu zählen unter anderem das hinterlegen von seitenspezifischen Meta-Tags und eine kurze Antwortzeit der Seite bis zum ‚First Meaningful Paint‘. Im Folgenden lernen Sie Angulars Werkzeuge kennen, die Ihnen helfen ein gutes Ranking bei allen Suchmaschinen zu erreichen. <h2>Nutzung von HTML5 Elementen</h2> Durch das Komponentenbasierte Design von Angular-Anwendungen und dem damit verbundenen Erstellen von eigenen HTML-Tags für jede einzelne Komponente, wird meist vergessen, dass für viele dieser Elemente bereits Tags existieren. Suchmaschinen analysieren die Seiten auf Ihre semantische Struktur. Nutz man nun selbst erstellte Tags zur Strukturierung können die Inhalte einem bestimmten Kontext nicht zugeordnet werden. Für eine Blog-Anwendung ist es beispielsweise hilfreich, das Article-Element zu nutzen. Dadurch können Suchmaschinen den Artikel und seine Meta-Informationen wie address (Die Kontaktinformationen der Autoren) und time (Das Datum der Publizierung) indexieren und so als Ergebnisse in zum Beispiel einer Nachrichtensuche einordnen. Weitere Beispiele für suchmaschinenfreundliche HTML5-Tags sind in Tabelle 1 gelistet. [der ganze Artikel ist im Heft nachzulesen]"
     },
     "visible": true,
     "description": "Wie können wir unsere Angularanwendungen suchmaschinenfreundlich optimieren? Welche Techniken gibt es, was gibt es zu beachten"
@@ -27,17 +27,17 @@
     "description": "The world’s biggest Angular conference"
   },
   {
-      "uniqueName": "keine-ahnung",
+      "uniqueName": "Microservices-moegen-kein-Denken-in-klassischen-Entitäten",
     "author": {
       "name": "Uli Armbruster",
       "mail": "ua@co-IT.eu",
       "twitter": "@UliArmbruster"
     },
     "post": {
-      "header": "Keine Ahnung",
-      "content": "Noch weniger Ahnung"
+      "header": "Microservices mögen kein Denken in klassischen Entitäten",
+      "content": "Einen ganz besonderen AHA Moment hatte ich kürzlich in einem Workshop bei <a href=\"udidahan.com\"> Udi Dahan</a>, CEO von Particular. In seinem Beispiel ging es um die klassische Entität eines Kunden. Microservices zu realisieren bedeutet Fachlichkeiten sauber schneiden und in eigenständige Silos (oder Säulen) packen zu müssen. Jedes Silo muss dabei die Hohheit über die eigenen Daten besitzen, auf denen es die zugehörigen Geschäftsprozesse abbildet. Soweit so gut. Doch wie lässt sich dies im Falle eines Kunden bewerkstelligen, der klassischerweise wie im Screenshot zu sehen modelliert ist? Unterschiedliche Eigenschaften werden von unterschiedlichen Microservices benötigt bzw. verändert. Wird die gleiche Entität in allen Silos verwendet, muss es eine entsprechende Synchronisierung zw. den Microservices geben. Das hat erhelbiche Auswirkungen auf Skalierbarkeit und Performance. In einer Applikation mit häufig parallelen Änderungen an einer Entität wird das Fehlschlagen von Geschäftsprozessen zunehmen – oder im schlimmsten Fall zu Inkonsistenzen führen. [den ganzen Artikel gibt es hier: <a href=\"https://uliarmbruster.wordpress.com/2018/07/11/microservices-moegen-kein-denken-in-klassischen-entitaeten\"> Uli Armbruster - Blog </a>]"
     },
     "visible": true,
-    "description": "bla bla 2"
+    "description": "Microservices richtig konzipieren"
   }
 ]
