@@ -10,21 +10,21 @@
       "content": "Single Page Anwendungen, die mit einem JavaScript Framework wie Angular geschrieben werden, sind beliebter als je zuvor. Die Inhalte weisen eine hohe Dynamik innerhalb einer Webseite aus. Die Inhalte werden mit JavaScript dynamisch in das Dokument geladen. Viele Suchmaschinen-Bots, welche die Webseiten auf Inhalte durchsuchen, können dieses JavaScript nicht oder unzureichend ausführen. Das führt dazu, dass es Suchmaschinen schwer haben, diese Inhalte im Gesamten zu erfassen. Es ergibt sich für die erwarteten Suchbegriffe kein bzw. ein schlechtes Ranking auf der Suchergebnisseite. Es gibt eine Reihe Techniken, die sich bei der Suchmaschinenoptimierung behauptet haben und welche als Best Practices angesehen werden. Dazu zählen unter anderem das hinterlegen von seitenspezifischen Meta-Tags und eine kurze Antwortzeit der Seite bis zum ‚First Meaningful Paint‘. Im Folgenden lernen Sie Angulars Werkzeuge kennen, die Ihnen helfen ein gutes Ranking bei allen Suchmaschinen zu erreichen. <h2>Nutzung von HTML5 Elementen</h2> Durch das Komponentenbasierte Design von Angular-Anwendungen und dem damit verbundenen Erstellen von eigenen HTML-Tags für jede einzelne Komponente, wird meist vergessen, dass für viele dieser Elemente bereits Tags existieren. Suchmaschinen analysieren die Seiten auf Ihre semantische Struktur. Nutz man nun selbst erstellte Tags zur Strukturierung können die Inhalte einem bestimmten Kontext nicht zugeordnet werden. Für eine Blog-Anwendung ist es beispielsweise hilfreich, das Article-Element zu nutzen. Dadurch können Suchmaschinen den Artikel und seine Meta-Informationen wie address (Die Kontaktinformationen der Autoren) und time (Das Datum der Publizierung) indexieren und so als Ergebnisse in zum Beispiel einer Nachrichtensuche einordnen. Weitere Beispiele für suchmaschinenfreundliche HTML5-Tags sind in Tabelle 1 gelistet."
     },
     "visible": true,
-    "description": "Die Inhalte weisen eine hohe Dynamik innerhalb einer Webseite aus. Die Inhalte werden mit JavaScript dynamisch in das Dokument geladen. Viele Suchmaschinen-Bots, welche die Webseiten auf Inhalte durchsuchen, können dieses JavaScript nicht oder unzureichend ausführen...."
+    "description": "Wie können wir unsere Angularanwendungen suchmaschinenfreundlich optimieren? Welche Techniken gibt es, was gibt es zu beachten"
   },
   {
-      "uniqueName": "angular-at-scale",
+      "uniqueName": "1st-keynote-ngconf",
     "author": {
       "name": "Gregor Woiwode",
       "mail": "gw@co-IT.eu",
       "twitter": "@GregOnNet"
     },
     "post": {
-      "header": "Angular at Scale",
-      "content": "noch mehr bla"
+      "header": "1st Keynote | NG Conf 2018",
+      "content": "In this article I am going to talk about the topics beeing covered in the keynote given at the very beginning of NG Conf. You can find all the slides on Google Drive. <a href=\"ng-conf.org\">ng-conf.org</a> It is the 18th of April in Salt Lake City, Utah. The ng-conf 2018 is about to start. Before the talks start Kara Ericson (@karaforthewin), Brad Green (@bradlygreen) and Misko Hevery (@mhevery) give a quick overview about the journey the Angular team and the community has taken so far.<header>Community</header>The Angular Comunity counts over a million developers. There are over 791 meetups available all over the world. So whenever you need help or want to share your experiences just look for the meetup next to you. <header>Mission</header> Brad Green starts the keynote by talking about Angular’s values for both the developers and the customers.<br /><ul><li>Allow to build applications that users love to use.</li> <li>Enable developers to build solid and fast apps more easily.</li><li>Build a place for the community to exchange knowledge and experiences.</li><li>Brad also highlighted some awesome community organizations pushing diversity.</li></ul> Ther is ngGirls helping women to get into tech by teaching Angular in many free conferences and meetups all over the world. Another success story is the conference ngAtlanta where over 60% of the speakers where women.<br /> It is wonderful to see that more and more women are seen at the conferences’ lineups. [read the full article at <a href=\"https://medium.com/@gregor.woiwode/1st-keynote-ng-conf-2018-e7542f0dd97f\">https://medium.com/@gregor.woiwode</a>]"
     },
     "visible": true,
-    "description": "bla bla"
+    "description": "The world’s biggest Angular conference"
   },
   {
       "uniqueName": "keine-ahnung",
